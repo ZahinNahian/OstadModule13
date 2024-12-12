@@ -12,7 +12,7 @@ class ProfileController extends Controller
         $age="75";
         $data=["id"=>$id,"name"=>$name,"age"=>$age];
         
-        $cookiename="access_token1";
+        $cookiename="access_token";
         $cookievalue="123-XYZ";
         $cookieminutes=1;
         $cookiepath="/";
